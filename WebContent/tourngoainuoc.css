@@ -1,0 +1,120 @@
+.content{
+	width: 1000px;
+	height: 100%;
+	margin: auto;
+}
+.logo{
+	width: 1000px;
+	height: 100px;
+	background-color: #f0f7f0;
+}
+.menu{
+	width: 1000px;
+	height: 50px;
+	background-color: #8fdaef;
+}
+.menu ul li{
+	float:left;
+	list-style: none;
+	padding: 16px;
+	cursor: pointer;
+}
+.menu ul{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.banner{
+	width: 1000px;
+	height: 200px;
+	
+}
+.main{
+	width: 1000px;
+	height: 800px;
+	background-color:#f3f7e7;
+	display: grid;
+	grid-template-columns: 60% 40%;
+}
+.footer{
+	width: 1000px;
+	height: 150px;
+	background-color: #2f9ca0;
+}
+.infotour{
+	display: flex;
+	border-bottom: 1px solid #bfb1b1;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.info{
+	padding-left: 5px;
+	width: 420px;
+}
+
+.titlee{
+	font-weight: bold;
+}
+
+.contentt{
+	text-align: justify;
+}
+
+.titlee a{
+	text-decoration: none;
+	color: black;
+}
+.image2{
+	height:300px;
+	margin-left: 12px;
+	margin-top: 20px;
+	background-image: url(halong.jpg);
+	background-size: cover;
+	position: relative;
+}
+.title3{
+	position: absolute;
+	bottom: 0;
+	color: white;
+	font-family: arial;
+	margin-left: 15px;
+	margin-bottom: 0px;
+	font-style: italic;
+}
+.title3 a{
+	text-decoration: none;
+	color: white;
+}
+.f-title{
+	display: flex;
+	flex-direction: row;
+}
+.f-title h3{
+	padding-left: 5px;
+}
+.fff-title{
+	margin-left: 5px;
+}
+.boder-line1{
+	border-top:  1px solid #040404;
+	width: 300px;
+	margin-top: 29px;
+	margin-left:10px;
+}
+.boder-line2{
+	border-top:  1px solid #040404;
+	width: 170px;
+	margin-top: 29px;
+	margin-left:10px;
+}
+.footer{
+	/*margin-top: 50px;*/
+	width: 100%;
+	height: 120px;
+	/*padding: 20px;*/
+	background-color: #3BB9FF;
+}
+.footer p{
+	font-size: 12px;
+	line-height: 10px;
+}
